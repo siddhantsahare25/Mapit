@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		507D1A50B969DC98344996B7 /* Pods_Mapit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5413552DF6D2AF88154CF40 /* Pods_Mapit.framework */; };
 		F594A9B320654DBB00870621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F594A9B220654DBB00870621 /* AppDelegate.swift */; };
-		F594A9B520654DBB00870621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F594A9B420654DBB00870621 /* ViewController.swift */; };
+		F594A9B520654DBB00870621 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F594A9B420654DBB00870621 /* WelcomeVC.swift */; };
 		F594A9B820654DBB00870621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F594A9B620654DBB00870621 /* Main.storyboard */; };
 		F594A9BA20654DBB00870621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F594A9B920654DBB00870621 /* Assets.xcassets */; };
 		F594A9BD20654DBB00870621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F594A9BB20654DBB00870621 /* LaunchScreen.storyboard */; };
+		F594A9C9206550F900870621 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F594A9C8206550F900870621 /* MapVC.swift */; };
+		F594A9CB2065511100870621 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F594A9CA2065511100870621 /* PopVC.swift */; };
+		F594A9CD2065522400870621 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F594A9CC2065522400870621 /* DroppablePin.swift */; };
+		F594A9CF2065524200870621 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F594A9CE2065524200870621 /* PhotoCell.swift */; };
+		F594A9D12065526100870621 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F594A9D02065526100870621 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18AA5DB911F65F6E712DA918 /* Pods-Mapit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mapit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mapit/Pods-Mapit.debug.xcconfig"; sourceTree = "<group>"; };
+		A5413552DF6D2AF88154CF40 /* Pods_Mapit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mapit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2CE94A43A9F7FA251BD65A /* Pods-Mapit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mapit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mapit/Pods-Mapit.release.xcconfig"; sourceTree = "<group>"; };
 		F594A9AF20654DBB00870621 /* Mapit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F594A9B220654DBB00870621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F594A9B420654DBB00870621 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F594A9B420654DBB00870621 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		F594A9B720654DBB00870621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F594A9B920654DBB00870621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F594A9BC20654DBB00870621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F594A9BE20654DBB00870621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F594A9C8206550F900870621 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		F594A9CA2065511100870621 /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
+		F594A9CC2065522400870621 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
+		F594A9CE2065524200870621 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		F594A9D02065526100870621 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507D1A50B969DC98344996B7 /* Pods_Mapit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BF3F6138D82DF360A479F35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18AA5DB911F65F6E712DA918 /* Pods-Mapit.debug.xcconfig */,
+				DF2CE94A43A9F7FA251BD65A /* Pods-Mapit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65B1DCC06E7B17E71984903C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5413552DF6D2AF88154CF40 /* Pods_Mapit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F594A9A620654DBB00870621 = {
 			isa = PBXGroup;
 			children = (
 				F594A9B120654DBB00870621 /* Mapit */,
 				F594A9B020654DBB00870621 /* Products */,
+				0BF3F6138D82DF360A479F35 /* Pods */,
+				65B1DCC06E7B17E71984903C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,51 @@
 		F594A9B120654DBB00870621 /* Mapit */ = {
 			isa = PBXGroup;
 			children = (
+				F594A9C720654F9D00870621 /* constants */,
+				F594A9C620654F8000870621 /* extensions */,
+				F594A9C520654F7900870621 /* view */,
+				F594A9C420654F6800870621 /* controller */,
 				F594A9B220654DBB00870621 /* AppDelegate.swift */,
-				F594A9B420654DBB00870621 /* ViewController.swift */,
 				F594A9B620654DBB00870621 /* Main.storyboard */,
 				F594A9B920654DBB00870621 /* Assets.xcassets */,
 				F594A9BB20654DBB00870621 /* LaunchScreen.storyboard */,
 				F594A9BE20654DBB00870621 /* Info.plist */,
 			);
 			path = Mapit;
+			sourceTree = "<group>";
+		};
+		F594A9C420654F6800870621 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F594A9B420654DBB00870621 /* WelcomeVC.swift */,
+				F594A9C8206550F900870621 /* MapVC.swift */,
+				F594A9CA2065511100870621 /* PopVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F594A9C520654F7900870621 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F594A9CC2065522400870621 /* DroppablePin.swift */,
+				F594A9CE2065524200870621 /* PhotoCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F594A9C620654F8000870621 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		F594A9C720654F9D00870621 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				F594A9D02065526100870621 /* Constant.swift */,
+			);
+			path = constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F594A9C120654DBB00870621 /* Build configuration list for PBXNativeTarget "Mapit" */;
 			buildPhases = (
+				619A70E127AF799AB6F66AE6 /* [CP] Check Pods Manifest.lock */,
 				F594A9AB20654DBB00870621 /* Sources */,
 				F594A9AC20654DBB00870621 /* Frameworks */,
 				F594A9AD20654DBB00870621 /* Resources */,
+				480435C72723E5C6439CA312 /* [CP] Embed Pods Frameworks */,
+				20BDF8FA08B92CCD04B54D41 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +205,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20BDF8FA08B92CCD04B54D41 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mapit/Pods-Mapit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		480435C72723E5C6439CA312 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mapit/Pods-Mapit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mapit/Pods-Mapit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		619A70E127AF799AB6F66AE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mapit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F594A9AB20654DBB00870621 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F594A9B520654DBB00870621 /* ViewController.swift in Sources */,
+				F594A9D12065526100870621 /* Constant.swift in Sources */,
+				F594A9B520654DBB00870621 /* WelcomeVC.swift in Sources */,
+				F594A9C9206550F900870621 /* MapVC.swift in Sources */,
+				F594A9CD2065522400870621 /* DroppablePin.swift in Sources */,
+				F594A9CB2065511100870621 /* PopVC.swift in Sources */,
+				F594A9CF2065524200870621 /* PhotoCell.swift in Sources */,
 				F594A9B320654DBB00870621 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +407,7 @@
 		};
 		F594A9C220654DBB00870621 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18AA5DB911F65F6E712DA918 /* Pods-Mapit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +423,7 @@
 		};
 		F594A9C320654DBB00870621 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2CE94A43A9F7FA251BD65A /* Pods-Mapit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
