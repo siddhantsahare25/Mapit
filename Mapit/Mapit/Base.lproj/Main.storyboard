@@ -27,7 +27,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cBm-DD-gsk">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YW3-bN-fcT">
+                                    <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgorund123" translatesAutoresizingMaskIntoConstraints="NO" id="817-7z-R99">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    </imageView>
+                                    <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YW3-bN-fcT">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="71"/>
                                         <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -41,14 +44,18 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="817-7z-R99" firstAttribute="top" secondItem="cBm-DD-gsk" secondAttribute="top" id="5O8-jv-j4b"/>
                                     <constraint firstAttribute="trailing" secondItem="YW3-bN-fcT" secondAttribute="trailing" id="7S0-31-VqL"/>
                                     <constraint firstItem="YW3-bN-fcT" firstAttribute="leading" secondItem="cBm-DD-gsk" secondAttribute="leading" id="Lgf-Pj-h2y"/>
+                                    <constraint firstAttribute="bottom" secondItem="817-7z-R99" secondAttribute="bottom" id="Odw-dT-mpR"/>
+                                    <constraint firstAttribute="trailing" secondItem="817-7z-R99" secondAttribute="trailing" id="ULK-bN-at4"/>
                                     <constraint firstItem="YW3-bN-fcT" firstAttribute="top" secondItem="cBm-DD-gsk" secondAttribute="top" id="qs9-b0-E36"/>
+                                    <constraint firstItem="817-7z-R99" firstAttribute="leading" secondItem="cBm-DD-gsk" secondAttribute="leading" id="tkF-Wy-9l0"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFf-Tt-sxY">
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFf-Tt-sxY">
                                 <rect key="frame" x="51" y="576" width="273" height="71"/>
-                                <color key="backgroundColor" red="0.5101468563079834" green="0.90850526094436646" blue="0.41943550109863281" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.70356255769729614" green="0.91995751857757568" blue="0.47434854507446289" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="273" id="gyy-g2-8Ui"/>
                                     <constraint firstAttribute="height" constant="71" id="xIq-Os-qRn"/>
@@ -80,7 +87,7 @@
         <!--MapVC-->
         <scene sceneID="abk-27-4Nh">
             <objects>
-                <viewController id="BUh-3h-V9O" customClass="MapVC" customModule="pixel_city" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BUh-3h-V9O" customClass="MapVC" customModule="Mapit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lVx-aA-wM8"/>
                         <viewControllerLayoutGuide type="bottom" id="qF7-yx-Nx0"/>
@@ -92,7 +99,7 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" zoomEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" showsUserLocation="YES" showsCompass="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAm-16-VuB">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="666"/>
                             </mapView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BDg-tx-inp">
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BDg-tx-inp">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Double-tap to drop a pin and view photos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2D-xQ-SwA">
@@ -162,7 +169,7 @@
         <!--PopVC-->
         <scene sceneID="aJ8-L5-aDb">
             <objects>
-                <viewController storyboardIdentifier="PopVC" id="J8k-LV-jdg" customClass="PopVC" customModule="pixel_city" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PopVC" id="J8k-LV-jdg" customClass="PopVC" customModule="Mapit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="X5w-kt-fIR"/>
                         <viewControllerLayoutGuide type="bottom" id="t9q-bq-bA8"/>
@@ -214,6 +221,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="backgorund123" width="539" height="539"/>
         <image name="button:TfW-M4-MF7:image" width="67" height="67">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGVVZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QEgcI
